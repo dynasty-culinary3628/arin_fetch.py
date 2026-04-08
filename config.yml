@@ -1,0 +1,3 @@
+# arin-fetch configuration
+arin:
+  base_url: "http://whois.arin.net/rest"
