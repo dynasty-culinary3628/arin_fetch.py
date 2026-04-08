@@ -28,6 +28,8 @@ def search_orgs(base_url, name):
         name = name + "*"
     url = f"{base_url}/orgs;name={requests.utils.quote(name, safe='*')}"
     resp = requests.get(url, headers={"Accept": "application/json"})
+    if resp.status_code == 404:
+        return [], False
     resp.raise_for_status()
     data = resp.json()
 
