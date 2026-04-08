@@ -1,7 +1,7 @@
 # arin-fetch
 
 ![arin-fetch logo](images/arin_fetch-logo.png)
-arin-fetch fetches all registered IP addresses for a given org. It is written in python. It is valuable during external pentests to make sure you are targeting the correct CIDR ranges.
+arin_fetch.py fetches all registered IP addresses for a given org. It is written in python. It is valuable during external pentests to make sure you are targeting the correct CIDR ranges.
 
 ## Usage
 
